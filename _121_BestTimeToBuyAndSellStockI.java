@@ -1,6 +1,7 @@
 public class _121_BestTimeToBuyAndSellStockI {
     public static void main(String[] args) {
         
+        
     }
 
    
