@@ -115,6 +115,17 @@ public class _206_ReverseLinkedList {
         }
 
         return head;
+    } 
+    public ListNode reverseList3(ListNode head) {
+        ListNode curNode = head;
+        while(curNode!= null && curNode.next != null){
+            ListNode nextNode = curNode.next;
+            curNode.next = nextNode.next;
+            nextNode.next = head;
+            head = nextNode;
+        }
+
+        return head;
     }
 // commit to githubbb
 // how can i do upload to guthib
